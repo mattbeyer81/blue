@@ -1,3 +1,10 @@
+Welcome to th Blue Energy meter readings API.
+
+This was build using Laravel 5.3 and MySQL.
+
+MySQL was the chosen database system because this was the most familiar and used database system of the API developer.
+
+
 The routes for the API can be found in:
 routes/api.php
 
@@ -6,6 +13,7 @@ app/Http/Controllers/MeterController.php
 
 The api accepts these requests:
 
+To accept a meter reading:
 POST api/meter-read
 
 e.g.
@@ -22,6 +30,7 @@ POST api/meter-read
 }
 
 
+To present meter readings:
 GET api/meter-read
 
 e.g.
